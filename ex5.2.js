@@ -4,6 +4,7 @@ import colors from 'colors';
 const data = fs.readFileSync('./products.txt', 'utf8');
 const products = data.split('\n');
 
+//colorss
 console.log(colors.red(products[0]));
 console.log(colors.inverse(products[1]));
 console.log(colors.rainbow(products[2]));

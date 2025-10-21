@@ -4,6 +4,7 @@ import { upperCase } from 'upper-case';
 
 for(let i=1;i<=15;i++)
 {
+    //left-pad & upper-case
     if(i%2==1)
         console.log(upperCase(leftPad('hello world', 'hello world'.length + i)));
     else
